@@ -1,0 +1,106 @@
+body {
+    background-color: #f7fafd;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #0084ff;
+    margin-bottom: 16px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* ปุ่มกลับ */
+  .btn-secondary {
+    margin: 16px;
+    background-color: #ccc;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  
+  /* การ์ดแต่ละสาขา */
+  li {
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  li h4 {
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 8px;
+  }
+  
+.label {
+  font-weight: 400;
+  color: #222222; /* สีฟ้าสำหรับหัวข้อ */
+  font-size: 16px; /* ขนาดฟอนต์ */
+  font-family: Prompt;
+}
+
+/* สไตล์สำหรับข้อมูล */
+.value {
+  font-weight: 700;
+  font-size: 16px; /* ขนาดฟอนต์ */
+  color: #222222; /* สีเทาเข้มสำหรับข้อมูล */
+  font-family: Prompt;
+}
+  
+  /* ปุ่มโทรและแผนที่ */
+  .btn {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .btn-primary {
+    background-color: #ffffff;
+    color: #0084ff;
+    border: 1px solid #0084ff;
+  }
+  
+  .btn-primary:hover{
+    opacity: 0.5;
+    background-color: #0084ff;
+    color: white;
+  }
+
+  .btn-success:hover {
+    opacity: 0.9;
+    background-color: #0084ff;
+  }
+
+  /* กลุ่มปุ่ม */
+  li div {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  
+  /* Responsive ปรับขนาด */
+  @media (max-width: 480px) {
+    .btn {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    li {
+      padding: 12px;
+      margin: 12px;
+    }
+  }
+  
+  
