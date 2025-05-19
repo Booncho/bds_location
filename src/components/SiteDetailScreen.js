@@ -34,9 +34,9 @@ const SiteDetailScreen = () => {
   
     return (
       <div className="site-detail-container">
-        <button onClick={() => navigate(-1)} className="back-button">
-          Back
-        </button>
+        <button onClick={() => navigate(-1)} className="back-button" style={{ color: "blue", backgroundColor: "#f7fafd", fontSize: "20px" }}>
+        <i className="fa fa-angle-left	"></i> 
+      </button>
         <h3 className="site-header">{siteName}</h3>
         <div className="site-address-box">
           <h4>ที่อยู่</h4>

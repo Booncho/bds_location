@@ -60,8 +60,8 @@ const SiteListScreen = ({ currentLocation, onBack }) => {
 
   return (
     <div>
-      <button onClick={onBack} className="btn btn-secondary">
-        Back
+      <button onClick={onBack} className="btn btn-secondary" style={{ color: "blue", backgroundColor: "#f7fafd", fontSize: "20px" }}>
+        <i className="fa fa-angle-left	"></i> 
       </button>
       <h3><b>ค้นหาสาขา</b></h3>
       <div style={{ display: "flex", justifyContent: "center", position: "relative" }}>
