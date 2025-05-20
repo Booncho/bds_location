@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import Router components
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import MapComponent from "./components/Map";
 import SearchLocationInput from "./components/GooglePlcasesApi";
 import SiteListScreen from "./components/SiteListScreen";
-import SiteDetailScreen from "./components/SiteDetailScreen"; // Import SiteDetailScreen
+import SiteDetailScreen from "./components/SiteDetailScreen";
 
 const App = () => {
   const [selectedLocation, setSelectedLocation] = useState({

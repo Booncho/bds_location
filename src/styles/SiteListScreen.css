@@ -14,7 +14,6 @@ body {
     padding: 0;
   }
   
-  /* ปุ่มกลับ */
   .btn-secondary {
     margin: 16px;
     background-color: #ccc;
@@ -24,7 +23,7 @@ body {
     font-size: 14px;
   }
   
-  /* การ์ดแต่ละสาขา */
+
   li {
     background-color: white;
     border-radius: 20px;
@@ -41,16 +40,15 @@ body {
   
 .label {
   font-weight: 400;
-  color: #222222; /* สีฟ้าสำหรับหัวข้อ */
-  font-size: 16px; /* ขนาดฟอนต์ */
+  color: #222222; 
+  font-size: 16px; 
   font-family: Prompt;
 }
 
-/* สไตล์สำหรับข้อมูล */
 .value {
   font-weight: 700;
-  font-size: 16px; /* ขนาดฟอนต์ */
-  color: #222222; /* สีเทาเข้มสำหรับข้อมูล */
+  font-size: 16px; 
+  color: #222222; 
   font-family: Prompt;
 }
   
