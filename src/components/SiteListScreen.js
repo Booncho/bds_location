@@ -37,7 +37,7 @@ const SiteListScreen = ({ currentLocation, onBack }) => {
       minute: "2-digit",
       hour12: false,
     });
-    const currentTime = formatter.format(now); // เวลาปัจจุบันในรูปแบบ HH:mm
+    const currentTime = formatter.format(now); 
 
     return currentTime >= openTime && currentTime <= closeTime;
   };

@@ -50,7 +50,7 @@ const SearchLocationInput = ({ setSelectedLocation }) => {
       lng: addressObject.geometry.location.lng(),
     };
 
-    setSelectedLocation(latLng); // ส่งตำแหน่งที่เลือกไปยัง MapComponent
+    setSelectedLocation(latLng); 
   };
 
   useEffect(() => {
